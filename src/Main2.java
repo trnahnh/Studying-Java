@@ -20,7 +20,7 @@ public class Main2 {
 
         String name = "Anh Tran";
 
-        /*
+        /* String
             String food = "Pho Bo 5 Trung Chan";
             String email = "tran3ah@mail.uc.edu";
             String car = "Corvette";
