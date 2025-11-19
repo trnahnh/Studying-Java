@@ -13,8 +13,21 @@ public class Main6 {
         char currency = '$';
         double total;
 
-        System.out.println("What item would you like to buy?: ");
+        System.out.print("What item would you like to buy?: ");
         item = scanner.nextLine();
+
+        System.out.print("What is the price for each?: ");
+        price = scanner.nextDouble();
+        scanner.nextLine();
+
+        System.out.print("How many would you like?: ");
+        quantity = scanner.nextInt();
+        scanner.nextLine();
+
+        total = price * quantity;
+
+        System.out.println("\nYou have bought " + quantity + " " + item + "(s)");
+        System.out.println("Your total is " + currency + total);
 
         scanner.close();
     }
