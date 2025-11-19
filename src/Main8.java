@@ -5,10 +5,15 @@ public class Main8 {
 
         Random random = new Random();
 
-        int number;
+        boolean isHeads;
 
-        number = random.nextInt(1, 6);
+        isHeads = random.nextBoolean();
 
-        System.out.println(number);
+        if (isHeads) {
+            System.out.println("HEADS");
+        }
+        else {
+            System.out.println("TAILS");
+        }
     }
 }
