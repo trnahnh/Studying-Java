@@ -1,17 +1,15 @@
 public class Main5 {
 
     // Arithmetic Operators
+    // Augmented Assignment Operators
 
     public static void main(String[] args) {
 
         int x = 10;
         int y = 2;
-        int z;
 
-        // z = x + y
-        // z = x + y;
-        z = x * y;
+        x += y;
 
-        System.out.println(z);
+        System.out.println(x);
     }
 }
