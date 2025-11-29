@@ -14,5 +14,9 @@ public class Main10 {
         System.out.printf("Hello %s\n", name);
         System.out.printf("Your name starts with a(n) %c\n", firstLetter);
         System.out.printf("You are %d years old\n", age);
+        System.out.printf("You are %.1f inches tall\n", height);
+        System.out.printf("Employed: %b\n", isEmployed);
+
+        System.out.printf("%s is %d years old", name, age);
     }
 }
