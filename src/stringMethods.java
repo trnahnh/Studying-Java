@@ -1,4 +1,4 @@
-public class Main13 {
+public class stringMethods {
     public static void main(String[] args) {
 
         String name = "Anh Tran";

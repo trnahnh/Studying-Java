@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main4 {
+public class madLibs {
     public static void main(String[] args) {
 
         // MAD LIBS GAME

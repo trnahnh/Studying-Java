@@ -1,4 +1,4 @@
-public class Main5 {
+public class arithmetic {
 
     // Arithmetic Operators
     // Augmented Assignment Operators

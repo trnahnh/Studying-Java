@@ -1,4 +1,4 @@
-public class Main12 {
+public class nestedIf {
     public static void main(String[] args) {
 
         // nested if statements

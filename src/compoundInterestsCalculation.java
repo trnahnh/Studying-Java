@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main11 {
+public class compoundInterestsCalculation {
     public static void main(String[] args) {
 
         // Compound interest calculation
